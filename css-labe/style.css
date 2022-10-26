@@ -1,0 +1,796 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    background-image: url(asset/bckgrn-laba.png);
+    height: 4465px;
+    background-size: cover;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 1206px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo{
+    width: 268px;
+    height: 41px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.nav-links{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-link{
+    color: #3a3a3a;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: medium;
+    line-height: 30px;
+}
+
+span.te{
+    color: #000000;
+}
+
+.nav-link.active{
+    font-weight: bold;
+    border-bottom: 3px solid #3A3A3A;
+    color: #3A3A3A;
+}
+
+section.home{
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+img.profil-team{
+    width: 494px;
+    height: 474px;
+    margin-top: 120px;
+}
+
+.text-section{
+    position: absolute;
+    left: 670px;
+    top: 90px;
+}
+
+h1.pembuka{
+    font-size: 32px;
+    color: #3A3A3A;
+    letter-spacing: 4px;
+    font-weight: bold;
+    margin-left: 130px;
+    margin-bottom: 28px;
+    margin-top: 200px;
+}
+
+p.lorem1{
+    font-size: 18px;
+    width: 535px;
+    height: 150px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 400;
+}
+
+button.btn-primary{
+    background-color: #3A3A3A;
+    color: #fff;
+    padding: 19px 120px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 9px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: none;
+    margin-left: 90px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sosmed img{
+    position: absolute;
+    width: 94px;
+    height: 25px;
+    left: 890px;
+    top: 615px;
+    cursor: pointer;
+}
+.anggota{
+    display:grid;
+    grid-template-columns: 1.1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.anggota .dekady{
+    height: 354px;
+    width: 386.1684265136719px;
+    margin-left: 80px;
+    margin-top: 204px;
+}
+.anggota .dekady p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    width: 535px;
+    height: 150px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-weight: 400;
+    position: absolute;
+    left: 514px;
+    padding-right: 15%;
+    top: 1075px;
+}
+.anggota .dekady h3{
+    position: absolute;
+    left: 514px;
+    margin-top: 8%;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: 0.245em;
+}
+.anggota .imgr{
+    height: 354px;
+    width: 386px;
+    position: absolute;
+    left: 406px;
+    top: 1374px;
+}
+.anggota .ramply h3{
+    position: absolute;
+    left: 850px;
+    top: 1460px;
+    bottom: 62.13%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;  
+    letter-spacing: 0.245em;
+}
+.anggota .ramply p{
+    position: absolute;
+    left: 850px;
+    right: 0%;
+    top: 1540px;
+    bottom: 10.51%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+.anggota .gimg{
+    height: 354px;
+    width: 386px;
+    position: absolute;
+    left: 80px;
+    top: 1858px;
+}
+.anggota .gauri h3{
+    position: absolute;
+    left: 514px;
+    right: -4.46%;
+    top: 1962px;
+    bottom: 62.13%;
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.anggota .gauri p{
+    position: absolute;
+    left: 514px;
+    right: 25%;
+    top: 2023px;
+    bottom: 10.51%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.245em;
+
+}
+.container2{
+    height: 580px;
+    width: 100%;
+    margin-top: 1139px;
+    background-color: #3a3a3a;
+}
+.container2 h1{
+    color: #ffffff;
+    text-align: center;
+    padding: 44px;
+}
+.container2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 44px;
+}
+
+.skill-kami{
+    display: flex;
+    justify-content: center;
+}
+
+.our-skill-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.our-skill{
+    width: 1050px;
+    height: 293.36px;
+}
+
+p.css{
+    margin: 0 380px;
+}
+
+.skill-kami p{
+    font-weight: 600;
+font-size: 24px;
+line-height: 27px;
+}
+
+p.html{
+    margin-left: 10px;
+}
+.Teks-aboutus h1{
+    color: #000000;
+    text-align: center;
+    padding: 44px;
+    padding-top: 65px;
+    width: 100%;
+    font-size: 36px;
+}
+.education{
+    position: absolute;
+    width: 354.63px;
+    height: 419px;
+    left: 80px;
+    top: 3279px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px 3px rgba(0, 0, 0, 0.25);
+}
+.education img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 34.05px;
+}
+.education h3{
+    text-align: center;
+    margin-top: 50px;
+}
+.education p{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.work{
+    position: absolute;
+    width: 354.63px;
+    height: 419px;
+    left: 507px;
+    top: 3279px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px 3px rgba(0, 0, 0, 0.25);
+}
+.work img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 34.05px;
+}
+.work h3{
+    text-align: center;
+    margin-top: 50px;
+}
+.work p{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hobbies{
+   position: absolute;
+   width: 354.63px;
+   height: 419px;
+   left: 934.37px;
+   top: 3279px;
+
+   background: #FFFFFF;
+   box-shadow: 0px 4px 6px 3px rgba(0, 0, 0, 0.25);
+}
+.hobbies img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 27.43px;
+}
+.hobbies h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.hobbies p{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.footer{
+    width: 100%;
+    height: 700px;
+    background-color: #3A3A3A;
+    position: relative;
+    bottom: -800px;
+    overflow: hidden;
+}
+
+img.footer-team{
+    margin-top: 120px;
+    width: 1366px;
+    height: 500px;
+}
+
+@media screen and (max-width: 500px){
+
+.line{
+    width: 28px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 4px;
+    border-radius: 5px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 1600px;
+    background-image: url(asset/bckgrn-mbl.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 90%;
+    position: relative;
+}
+
+img.logo{
+    width: 148px;
+    height: 25px;
+}
+
+img.profil-team{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+.text-section{
+    left: 185px;
+    top: 130px;
+}
+
+h1.pembuka{
+    font-size: 13px;
+    margin-left: 18px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+p.lorem1{
+    font-family: 'Poppins';
+    width: 160px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 9px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    width: 166px;
+    height: 55px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+.nav-items {
+    margin-left: 0;
+    position: absolute;
+    flex-direction: column;
+    z-index: 999;
+    top: 70px;
+    background-color: #fff;
+    width: 370px;
+    justify-content: start;
+    height: 100%;
+    align-items: center;
+    display: none;
+}
+
+.background-image{
+    background-image: none;
+}
+
+.toggle-on{
+    display: block;
+}
+
+.menu-off{
+    display: none;
+}
+
+.nav-links{
+    flex-direction: column;
+    height: 50%;
+    width: 360px;
+    color: #1b1b1b;
+}
+
+.nav-link{
+    color: #1b1b1b;
+}
+
+.nav-link.active{
+    font-weight: bold;
+    border: none;
+    color: #1b1b1b;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+button.btn-primary{
+    background-color: #3A3A3A;
+    color: #fff;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    font-size: 8px;
+    font-weight: bold;
+    border-radius: 9px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.sosmed img{
+    position: absolute;
+    width: 33px;
+    height: 10px;
+    left: 252px;
+    top: 254px;
+    cursor: pointer;
+}
+
+.anggota .dekady{
+    height: 103px;
+    width: 301px;
+    margin-left: 0;
+    margin-top: 155px;
+}
+
+img.foto-dekadicuy{
+    width: 115px;
+    height: 105px;
+}
+
+.anggota .dekady p{
+    font-family: 'Poppins';
+    font-size: 6px;
+    width: 180px;
+    height: 43px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-weight: 400;
+    position: absolute;
+    left: 130px;
+    padding-right: 0;
+    top: 515px;
+}
+.anggota .dekady h3{
+    position: absolute;
+    left: 130px;
+    top: 485px;
+    font-size: 10px;
+    margin-top: 0;
+    width: 225px;
+    height: 15px;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: 0.245em;
+}
+
+.anggota .imgr{
+    height: 105px;
+    width: 115px;
+    position: absolute;
+    left: 0;
+    top: 620px;
+}
+.anggota .ramply h3{
+    position: absolute;
+    left: 128px;
+    top: 668px;
+    bottom: 0;
+    width: 250px;
+    height: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: normal;  
+    letter-spacing: 0.245em;
+}
+.anggota .ramply p{
+    position: absolute;
+    left: 128px;
+    right: 0%;
+    top: 690px;
+    bottom: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    width: 180px;
+    height: 43px;
+    font-size: 6px;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+.anggota .gimg{
+    height: 105px;
+    width: 115px;
+    position: absolute;
+    left: 0;
+    top: 780px;
+}
+.anggota .gauri h3{
+    position: absolute;
+    left: 128px;
+    right: 0;
+    top: 820px;
+    bottom: 62.13%;
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    width: 250px;
+    height: 15px;
+    font-size: 10px;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+.anggota .gauri p{
+    position: absolute;
+    left: 128px;
+    right: 0;
+    width: 180px;
+    height: 43px;
+    top: 844px;
+    bottom: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: normal;
+    letter-spacing: 0.245em;
+}
+
+.container2{
+    height: 210px;
+    width: 100%;
+    margin-top: 380px;
+    background-color: #3a3a3a;
+}
+.container2 h1{
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 25px;
+}
+.container2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 288.25px;
+    height: 81.45px;
+}
+
+.Teks-aboutus h1{
+    color: #000000;
+    text-align: center;
+    padding-top: 44px;
+    padding-top: 65px;
+    width: 100%;
+    font-size: 13px;
+}
+.education{
+    position: absolute;
+    width: 97.2px;
+    height: 114.84px;
+    left: 23px;
+    top: 1280px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px 3px rgba(0, 0, 0, 0.25);
+}
+.education img{
+    display: block;
+    width: 10.37px;
+    height: 10.37px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.education h3{
+    text-align: center;
+    font-size: 8px;
+    margin-top: 6px;
+}
+.education p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.work{
+    position: absolute;
+    width: 97.2px;
+    height: 114.84px;
+    left: 143px;
+    top: 1280px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px 3px rgba(0, 0, 0, 0.25);
+}
+.work img{
+    display: block;
+    width: 10.37px;
+    height: 10.37px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.work h3{
+    text-align: center;
+    font-size: 8px;
+    margin-top: 6px;
+}
+.work p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hobbies{
+    position: absolute;
+    width: 97.2px;
+    height: 114.84px;
+    left: 262px;
+    top: 1280px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px 3px rgba(0, 0, 0, 0.25);
+}
+.hobbies img{
+    display: block;
+    width: 10.37px;
+    height: 10.37px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.hobbies h3{
+    text-align: center;
+    font-size: 8px;
+    margin-top: 6px;
+}
+.hobbies p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    width: 100%;
+    height: 167px;
+    background-color: #3A3A3A;
+    position: relative;
+    bottom: -200px;
+    overflow: hidden;
+}
+
+img.footer-team{
+    margin-top: 120px;
+    width: 1366px;
+    height: 500px;
+    display: none;
+}
+
+img.footer-team2{
+    width: 100%;
+    height: 167px;
+}
+
+
+
+}
